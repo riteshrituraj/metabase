@@ -1018,14 +1018,14 @@
                 {
                   "column": {
                     "name": "json_query",
-                    "type": "text",
+                    "type": "longtext",
                     "constraints": {"nullable": false}
                   }
                 },
                 {
                   "column": {
                     "name": "raw_query",
-                    "type": "text",
+                    "type": "longtext",
                     "constraints": {"nullable": false}
                   }
                 },
