@@ -131,10 +131,6 @@ databaseChangeLog:
             columns:
               column:
                 name: raw_table_id
-        - addUniqueConstraint:
-            tableName: raw_column
-            columnNames: raw_table_id, name
-            constraintName: uniq_raw_column_table_name
         - addColumn:
             tableName: metabase_table
             columns:
